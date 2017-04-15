@@ -1,0 +1,22 @@
+.navbar-brands {
+    /*border: 1px solid #EAEAEA;*/
+    padding: 0px;
+    margin: 0px;
+    background-image: url('../img/logo.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: bottom;
+    background-position: center;
+    width:100%;
+}
+
+@media (max-width: 991px) {
+    .navbar-brands {
+        background-image: url('../img/logoMobile.png');
+    }
+}
+
+.logo {
+    width: 75% !important;
+}
